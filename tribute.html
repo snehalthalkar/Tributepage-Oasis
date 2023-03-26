@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="tribute.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="content">
+        <div class="container">
+            <div class="img-title">
+                <h1>Dr. A.P.J. Abdul Kalam</h1>
+                <h3>"Missile Man of India , People's President"</h3>
+                <div class="img-caption">
+                    <img src="imgs/title-img.webp" alt="APJ Abdul Kalam">
+                    <figcaption id="caption">(15 October 1931 – 27 July 2015)</figcaption>
+                </div>
+            </div>
+            <div class="basic-info">
+                <p class="para">
+                    <strong>A.P.J. Abdul Kalam</strong>, in full
+                    <strong>Avul Pakir Jainulabdeen Abdul Kalam</strong>, (born
+                    October 15, 1931, Rameswaram, India—died July 27, 2015, Shillong),
+                    was an Indian aerospace scientist and statesman who served as the 11th president of India from 2002
+                    to
+                    2007. He was born and raised in Rameswaram, Tamil Nadu and studied physics and aerospace
+                    engineering. He
+                    spent the next four decades as a scientist and science administrator, mainly at the Defence Research
+                    and
+                    Development Organisation (DRDO) and Indian Space Research Organisation (ISRO) and was intimately
+                    involved in India's civilian space programme and military missile development efforts.He thus came
+                    to be
+                    known as the Missile Man of India for his work on the development of ballistic missile and launch
+                    vehicle technology.He also played a pivotal organisational, technical, and political role in India's
+                    Pokhran-II nuclear tests in 1998, the first since the original nuclear test by India in 1974.
+                </p>
+                <p class="para">
+                    He spent four decades of his life as a researcher and science
+                    head, primarily at the Defense Research and Development
+                    Organization (DRDO) and Indian Space Research Organization (ISRO)
+                    and was personally required in India's civilian space program and
+                    military rocket advancement efforts.
+                </p>
+                <p class="para">
+                    Kalam had a humble beginning and came from a financially challenged family. He was a bright student
+                    and
+                    excelled in academics. He studied physics and aerospace engineering and went on to become one of the
+                    most respected scientists in India. He played a pivotal role in India's civilian space program and
+                    missile development efforts, earning him the nickname "Missile Man of India."
+                </p>
+            </div>
+            <div class="img-div">
+                <div class="president">
+                    <img src="imgs/PresidentKalam.webp" alt="">
+                    <figcaption style="font-weight: 500;">Kalam as President</figcaption>
+                </div>
+                <div class="scientist">
+                    <img src="imgs/page-4.webp" alt="">
+                    <figcaption style="font-weight: 500;">Kalam as Scientist</figcaption>
+                </div>
+                <div class="speaker">
+                    <img src="imgs/1539580060-apj_abdul_kalam.webp" alt="">
+                    <figcaption style="font-weight: 500;">Kalam as Speaker</figcaption>
+                </div>
+            </div>
+            <div class="quotes">
+                <p>Some Inspiring Quotes By Dr. A. P. J. Abdul Kalam</p>
+                <ul class="list">
+                    <li>"Dream, dream, dream. Dreams transform into thoughts and thoughts result in action."</li>
+                    <li>"We should not give up and we should not allow the problem to defeat us."</li>
+                    <li>"Don't take rest after your first victory because if you fail in second, more lips are waiting
+                        to
+                        say that your first victory was just luck."</li>
+                    <li>"All birds find shelter during a rain. But an eagle avoids rain by flying above the clouds.
+                        Problems
+                        are common, but attitude makes the difference."</li>
+                    <li>"Educationists should build the capacities of the spirit of inquiry, creativity, entrepreneurial
+                        and
+                        moral leadership among students and become their role model."</li>
+                    <li>"You have to dream before your dreams can come true."</li>
+                    <li>"Thinking should become your capital asset, no matter whatever ups and downs you come across in
+                        your
+                        life."</li>
+                    <li>"If you want to shine like a sun, first burn like a sun."</li>
+                    <li>"Learning gives creativity, creativity leads to thinking, thinking provides knowledge, and
+                        knowledge
+                        makes you great."</li>
+                </ul>
+            </div>
+            <div class="ending">
+                <p class="para">
+                    Abdul Kalam passed away in 2015 while delivering a lecture at the Indian Institute of Management,
+                    Shillong. His death was mourned by people from all over the world, and he is remembered as a true
+                    visionary, a great scientist, and a people's President. His life and legacy continue to inspire
+                    millions
+                    of people, especially young students, to pursue their dreams and make a positive impact on society.
+                </p>
+                <p class="para">
+                    APJ Abdul Kalam was not only a great scientist with a beautiful mind, but also a great human being
+                    with
+                    exceptional thoughts and amazing ideas to change the way mankind thinks. The 'Missile man of India',
+                    sadly,
+                    is no more with us, but his teachings and ideas will remain alive throughout!!
+                </p>
+                <img src="imgs/A.P.J-Abdul-Kalam-Quotes.jpg" alt="bye-img">
+            </div>
+            <footer id="footer">Source <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam"
+                    target="_blank">Wikipedia</a></footer>
+
+        </div>
+    </div>
+
+    <!-- loading animation -->
+    <div id="loader">
+        <img id="rocket" src="imgs/rocket-vector.png" alt="Rocket">
+    </div>
+
+    <script>
+        function showContent() {
+            document.getElementById("content").classList.add("show");
+            document.getElementById("rocket").classList.add("hide");
+            document.querySelector("body").classList.add("removeBg");
+        }
+
+        setTimeout(showContent, 2000);
+
+    </script>
+</body>
+
+</html>
